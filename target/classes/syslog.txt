@@ -1,0 +1,14 @@
+#IP Address:Event type (WARNING/INFO/ERROR):Message
+10.12.12.11:WARNING:Too many connections open to DB
+20.12.12.22:WARNING:Interface gig0/0 is down
+10.1.11.110:INFO:User john logged in successfully
+10.12.12.11:WARNING:High availability connection to device 10.12.12.13 is down
+10.20.20.20:ERROR:Invalid credentials
+10.12.12.11:ERROR:unable to connect to database
+10.12.12.11:ERROR:unable to receive connection events
+10.12.12.230:WARNING:Too many connections open to DB
+10.12.44.11:INFO:new module added successfully
+192.12.12.11:WARNING:Too many connections open to DB
+192.23.12.11:DEBUG:DB connection established
+192.3.12.11:DEBUG:Connection established
+192.23.12.11:DEBUG:Code is compiled 

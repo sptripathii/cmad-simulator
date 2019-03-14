@@ -1,0 +1,31 @@
+version : "2"
+volumes:
+  db-data:
+
+networks:
+  vote:
+    driver: bridge
+services:
+
+  simulator:
+    image: rmanohar/cmad-simulator:latest
+    depends_on:
+      - mysql
+    networks:
+      - vote
+  cmad:
+    image: rmanohar/cmad:latest
+    ports:
+      - 9009:8080
+    depends_on:
+      - mysql
+    networks:
+      - vote
+  mysql:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=networkhealth
+    networks:
+       - vote
+

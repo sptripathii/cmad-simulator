@@ -1,0 +1,4 @@
+cmad/project/simulator/entity/SyslogMessages.class
+cmad/project/simulator/util/SyslogHibernateUtil.class
+cmad/project/simulator/service/SyslogSimulatorService.class
+cmad/project/simulator/App.class
